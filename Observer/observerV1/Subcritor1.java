@@ -1,4 +1,4 @@
-package Observer;
+package Observer.observerV1;
 
 public class Subcritor1 extends Observador{
 
@@ -8,6 +8,6 @@ public class Subcritor1 extends Observador{
     }
     
     public void upDate(){
-        System.out.println( "Binary String: " + sujeto.getEstado() );
+        System.out.println( "yo soy subcritor 1: " + sujeto.getEstado() );
     }
 }

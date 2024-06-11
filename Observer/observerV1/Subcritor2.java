@@ -1,4 +1,4 @@
-package Observer;
+package Observer.observerV1;
 
 public class Subcritor2 extends Observador{
     
